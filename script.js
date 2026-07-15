@@ -355,18 +355,18 @@ if (contactForm) {
     name: "My name is Jeya Surya B.",
     education: "I hold a B.E. in Computer Science and Engineering, graduating in 2026.",
     role: "I'm a Full-Stack Web Developer focused on building modern, responsive web applications.",
-    skills: "My core skills include HTML5, CSS3, JavaScript, React, Tailwind CSS, Python, Flask and MySQL, along with Git, GitHub, VS Code, Vercel and Netlify.",
+    skills: "My core skills include HTML5, CSS3, JavaScript, React, Python, Flask and MySQL, along with Git, GitHub, VS Code, Vercel and Netlify.",
     experience: "I'm a fresher — a 2026 graduate — but I've built several real-world full-stack projects and completed development internships.",
-    projects: "My featured projects are: a Student Attendance Management System (Python, Flask, MySQL), ZYRA AI Chatbot (an AI-powered assistant platform), and Smart AgriMind AI Chatbot (a bilingual agriculture NLP assistant).",
+    projects: "My featured projects include Student Attendance Management System (Python, Flask, MySQL), SYRA AI (an AI-powered virtual assistant platform), Smart Expense Tracker (a personal finance management application), and Sethu Farm (a responsive agricultural business website with SEO optimization).",
     contact: "You can reach me at suryasivalai04@gmail.com or +91 6379558565.",
     email: "My email is suryasivalai04@gmail.com.",
     phone: "My phone number is +91 6379558565.",
     github: "You can find my code on GitHub at github.com/Jeyasurya-dev.",
-    linkedin: "You can connect with me on LinkedIn at linkedin.com/in/jeyasurya-b.",
+    linkedin: "💼 Connect with me on LinkedIn: https://www.linkedin.com/in/jeya-surya-b-84a80337a/",
     resume: "You can view or download my resume in the Resume section of this site.",
     location: "I'm based in Alangulam, Tenkasi, Tamil Nadu, India.",
     objective: "My career objective is to build scalable, responsive and user-friendly applications while continuously learning new technologies.",
-    greeting: "Hi there! I'm Surya's portfolio assistant. Ask me about his skills, projects, education or how to get in touch.",
+    greeting: "👋 Hello! Welcome to Jeya Surya B's portfolio. I'm your AI Portfolio Assistant. I can help you explore my projects, technical skills, education, experience, resume, certifications, and contact information. How can I assist you today?",
     fallback: "I'm not sure about that, but you can reach Surya directly at suryasivalai04@gmail.com for anything specific!"
   };
 
