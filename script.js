@@ -433,11 +433,11 @@ if (contactForm) {
 
             <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;">
 
-                <a href="assets/resume.pdf" target="_blank" class="btn btn-primary btn-sm">
+                <a href="assets/JEYA SURYA.pdf" target="_blank" class="btn btn-primary btn-sm">
                     👁 View Resume
                 </a>
 
-                <a href="assets/resume.pdf" download class="btn btn-outline btn-sm">
+                <a href="assets/JEYA SURYA.pdf" download class="btn btn-outline btn-sm">
                     ⬇ Download Resume
                 </a>
 
