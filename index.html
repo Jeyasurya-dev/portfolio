@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jeya Surya B | Full Stack Web Developer</title>
+
+<meta name="description"
+content="Official portfolio of Jeya Surya B. Full Stack Web Developer specializing in HTML, CSS, JavaScript, Python, Flask, MySQL, AI Chatbots and Responsive Web Development.">
+
+<meta name="keywords"
+content="Jeya Surya, Full Stack Developer, Web Developer, Python Developer, Flask, JavaScript, HTML, CSS, MySQL, Portfolio, AI Chatbot">
+
+<meta name="author"
+content="Jeya Surya B">
+
+<meta name="robots"
+content="index, follow">
+
+<meta property="og:title"
+content="Jeya Surya B | Full Stack Developer">
+
+<meta property="og:description"
+content="Explore my projects, resume and professional portfolio.">
+
+<meta property="og:image"
+content="https://your-project.vercel.app/assets/profile.jpg">
+
+<meta property="og:url"
+content="https://your-project.vercel.app/">
+
+<meta property="og:type"
+content="website">
+
+<meta name="twitter:card"
+content="summary_large_image">
+
+<meta name="twitter:title"
+content="Jeya Surya B | Portfolio">
+
+<meta name="twitter:description"
+content="Full Stack Developer Portfolio">
+
+<meta name="twitter:image"
+content="https://your-project.vercel.app/assets/profile.jpg">
+
+<meta name="theme-color" content="#00E5FF">
+
+<meta name="google-site-verification"
+content="YOUR_VERIFICATION_CODE">
+
+<link rel="canonical" href="https://your-project.vercel.app/">
+
+<link rel="icon" type="image/png" href="assets/JS.png">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+<!-- ============ LOADER ============ -->
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <div class="loader-bracket">&lt;</div>
+    <div class="loader-text">JEYA<span>SURYA</span></div>
+    <div class="loader-bracket">/&gt;</div>
+  </div>
+  <div class="loader-bar"><span></span></div>
+</div>
+
+<!-- ============ CUSTOM CURSOR GLOW ============ -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo">JS<span class="dot"></span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" data-section="home">Home</a>
+      <a href="#about" class="nav-link" data-section="about">About</a>
+      <a href="#services" class="nav-link" data-section="services">Services</a>
+      <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+      <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+      <a href="#certificates" class="nav-link" data-section="certificates">Certificates</a>
+      <a href="#resume" class="nav-link" data-section="resume">Resume</a>
+      <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-cta">Let's Talk</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="hero-grid"></div>
+  </div>
+
+  <div class="hero-container">
+    <div class="hero-text" data-reveal>
+      <p class="eyebrow">// hello, i'm</p>
+      <h1 class="hero-name">JEYA SURYA <span>B</span></h1>
+      <h2 class="hero-role">
+        <span id="typedText"></span><span class="cursor-blink">|</span>
+      </h2>
+      <p class="hero-desc">
+        Passionate Full-Stack Developer focused on building modern, scalable, responsive web
+        applications with clean UI and efficient backend solutions.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="assets/JEYA_SURYA_B_Resume.pdf" download class="btn btn-primary">
+          <i class="fa-solid fa-download"></i> Download Resume
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fa-solid fa-paper-plane"></i> Hire Me
+        </a>
+        <a href="#projects" class="btn btn-ghost">
+          View Projects <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="hero-socials">
+        <a href="https://github.com/Jeyasurya-dev" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jeya-surya-b-84a80337a/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:suryasivalai04@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-visual" data-reveal>
+      <div class="hero-photo-wrap">
+        <div class="photo-ring"></div>
+        <img src="assets\Surya.png" alt="Jeya Surya B." class="hero-photo">
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="about">
+  <div class="container">
+    <p class="section-eyebrow" data-reveal>~/about-me</p>
+    <h2 class="section-title" data-reveal>About Me</h2>
+
+    <div class="about-grid">
+      <div class="about-text" data-reveal>
+        <p>
+          Passionate Full-Stack Web Developer with strong knowledge in HTML, CSS, JavaScript, React,
+          Python, Flask, MySQL and modern web technologies. Interested in building scalable, responsive
+          and user-friendly applications while continuously learning new technologies.
+        </p>
+
+        <div class="about-cards">
+          <div class="glass-card about-card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div>
+              <h4>Education</h4>
+              <p>B.E. Computer Science and Engineering</p>
+            </div>
+          </div>
+          <div class="glass-card about-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <div>
+              <h4>Role</h4>
+              <p>Full-Stack Developer</p>
+            </div>
+          </div>
+          <div class="glass-card about-card">
+            <i class="fa-solid fa-seedling"></i>
+            <div>
+              <h4>Experience</h4>
+              <p>Fresher</p>
+            </div>
+          </div>
+          <div class="glass-card about-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h4>Location</h4>
+              <p>Tamil Nadu, India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-stats" data-reveal>
+        <div class="glass-card stat-card">
+          <span class="stat-num" data-count="2">0</span><span class="stat-plus">+</span>
+          <p>Projects Built</p>
+        </div>
+        <div class="glass-card stat-card">
+          <span class="stat-num" data-count="8">0</span>
+          <p>Core Technologies</p>
+        </div>
+        <div class="glass-card stat-card">
+          <span class="stat-num" data-count="3">0</span>
+          <p>Certifications</p>
+        </div>
+        <div class="glass-card stat-card">
+          <span class="stat-num" data-count="100">0</span><span class="stat-plus">%</span>
+          <p>Dedication</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section services" id="services">
+  <div class="container">
+    <p class="section-eyebrow" data-reveal>~/services</p>
+    <h2 class="section-title" data-reveal>What I Do</h2>
+
+    <div class="services-grid" data-reveal>
+      <div class="glass-card service-card">
+        <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+        <h3>Web Development</h3>
+        <p>Building responsive, fast and accessible websites with clean HTML, CSS and JavaScript.</p>
+      </div>
+      <div class="glass-card service-card">
+        <div class="service-icon"><i class="fa-brands fa-react"></i></div>
+        <h3>Frontend Engineering</h3>
+        <p>Crafting modern, component-driven interfaces with React and Tailwind CSS.</p>
+      </div>
+      <div class="glass-card service-card">
+        <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+        <h3>Backend &amp; APIs</h3>
+        <p>Designing REST APIs and server logic with Python, Flask and MySQL.</p>
+      </div>
+      <div class="glass-card service-card">
+        <div class="service-icon"><i class="fa-solid fa-robot"></i></div>
+        <h3>AI-Integrated Apps</h3>
+        <p>Adding intelligent features like chatbots and automation into web applications.</p>
+      </div>
+      <div class="glass-card service-card">
+        <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+        <h3>Responsive Design</h3>
+        <p>Ensuring every project looks and performs great across all screen sizes.</p>
+      </div>
+      <div class="glass-card service-card">
+        <div class="service-icon"><i class="fa-solid fa-rocket"></i></div>
+        <h3>Deployment &amp; Hosting</h3>
+        <p>Shipping production-ready projects using Vercel, Netlify and Render.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section skills" id="skills">
+  <div class="container">
+    <p class="section-eyebrow" data-reveal>~/skills</p>
+    <h2 class="section-title" data-reveal>Skills &amp; Tools</h2>
+
+    <div class="skills-grid" data-reveal>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <i class="fa-brands fa-html5"></i>
+          <span>HTML</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+        <span class="skill-percent">95%</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <i class="fa-brands fa-css3-alt"></i>
+          <span>CSS</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+        <span class="skill-percent">90%</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <i class="fa-brands fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+        <span class="skill-percent">88%</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <i class="fa-brands fa-python"></i>
+          <span>Python</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+        <span class="skill-percent">85%</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <i class="fa-solid fa-flask"></i>
+          <span>Flask</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+        <span class="skill-percent">82%</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <i class="fa-solid fa-database"></i>
+          <span>MySQL</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+        <span class="skill-percent">80%</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <i class="fa-solid fa-plug"></i>
+          <span>REST API Development</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+        <span class="skill-percent">78%</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <i class="fa-solid fa-robot"></i>
+          <span>AI Chatbot Development</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+        <span class="skill-percent">85%</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <i class="fa-brands fa-git-alt"></i>
+          <span>Git</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+        <span class="skill-percent">75%</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <span>Responsive Design</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+        <span class="skill-percent">90%</span>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <i class="fa-solid fa-lightbulb"></i>
+          <span>Problem Solving</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+        <span class="skill-percent">80%</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ TECH STACK ============ -->
+<section class="section techstack" id="techstack">
+  <div class="container">
+    <p class="section-eyebrow" data-reveal>~/tech-stack</p>
+    <h2 class="section-title" data-reveal>Tech Stack &amp; Tools</h2>
+
+    <div class="techstack-grid" data-reveal>
+      <div class="tech-chip"><i class="fa-brands fa-html5"></i> HTML5</div>
+      <div class="tech-chip"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+      <div class="tech-chip"><i class="fa-brands fa-js"></i> JavaScript</div>
+      <div class="tech-chip"><i class="fa-brands fa-react"></i> React</div>
+      <div class="tech-chip"><i class="fa-solid fa-plug"></i> REST API</div>
+      <div class="tech-chip"><i class="fa-brands fa-python"></i> Python</div>
+      <div class="tech-chip"><i class="fa-solid fa-flask"></i> Flask</div>
+      <div class="tech-chip"><i class="fa-solid fa-database"></i> MySQL</div>
+      <div class="tech-chip"><i class="fa-brands fa-git-alt"></i> Git</div>
+      <div class="tech-chip"><i class="fa-brands fa-github"></i> GitHub</div>
+      <div class="tech-chip"><i class="fa-solid fa-code"></i> VS Code</div>
+      <div class="tech-chip"><i class="fa-solid fa-triangle-exclamation"></i> Vercel</div>
+      <div class="tech-chip"><i class="fa-solid fa-globe"></i> Netlify</div>
+      <div class="tech-chip"><i class="fa-solid fa-cloud"></i> Render</div>
+      <div class="tech-chip"><i class="fa-solid fa-envelope"></i> EmailJS</div>
+      <div class="tech-chip"><i class="fa-brands fa-npm"></i> npm</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section projects" id="projects">
+  <div class="container">
+    <p class="section-eyebrow" data-reveal>~/projects</p>
+    <h2 class="section-title" data-reveal>Featured Projects</h2>
+
+    <div class="projects-grid">
+
+      <div class="project-card" data-reveal>
+        <div class="project-image">
+          <img src="assets/attendance.png" alt="Student Attendance Management System">
+          <div class="project-overlay"></div>
+        </div>
+        <div class="project-body">
+          <h3>🎓 Student Attendance Management System</h3>
+          <p>A full-stack web application for managing student attendance with secure authentication,
+             attendance tracking, report generation, and an admin dashboard.</p>
+          <div class="tech-tags">
+            <span>Python</span><span>MySQL</span><span>Flask</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://students-attendance-system-rm1h.onrender.com/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+            <a href="https://github.com/Jeyasurya-dev" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-image">
+    <img src="assets/syra.png"
+         onmouseover="this.src='assets/syra1.png'"
+         onmouseout="this.src='assets/syra.png'"
+         alt="SYRA AI">
+</div>
+        <div class="project-body">
+          <h3>🤖 SYRA AI</h3>
+          <p>An AI-powered virtual assistant platform designed to provide intelligent conversations, quick responses,
+             and an intuitive user experience with a modern responsive interface.</p>
+          <div class="tech-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Responsive UI</span>
+          </div>
+          <div class="project-links">
+            <a href="https://syra-ai.netlify.app/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+            <a href="https://github.com/Jeyasurya-dev" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-image">
+          <img src="assets/Expense Tracker.png" alt="💰 Smart Expense Tracker">
+          <div class="project-overlay"></div>
+        </div>
+        <div class="project-body">
+          <h3>💰 Smart Expense Tracker</h3>
+          <p>A personal finance management application that helps users track income, expenses, budgets,
+             and financial summaries through an intuitive dashboard.</p>
+          <div class="tech-tags">
+            <span>React</span><span>JavaScript</span><span>CSS</span><span>Local Storage</span>
+          </div>
+          <div class="project-links">
+            <a href="https://smart-expense-tracker-sage-eight.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+            <a href="https://github.com/Jeyasurya-dev" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-image">
+          <img src="assets/SethuFarm.png" alt="🌾 Sethu Farm">
+          <div class="project-overlay"></div>
+        </div>
+        <div class="project-body">
+          <h3>🌾 Sethu Farm</h3>
+          <p>A responsive business website developed for Sethu Farm to showcase agricultural products,
+             farming services, and business information with an SEO-optimized design.</p>
+          <div class="tech-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>SEO</span><span>Responsive Design</span>
+          </div>
+          <div class="project-links">
+            <a href="https://sethufarm.netlify.app/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+            <a href="https://github.com/Jeyasurya-dev" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATES ============ -->
+<section class="section certificates" id="certificates">
+  <div class="container">
+    <p class="section-eyebrow" data-reveal>~/certificates</p>
+    <h2 class="section-title" data-reveal>Certifications</h2>
+
+    <div class="cert-grid">
+
+      <div class="glass-card cert-card" data-reveal
+           data-img="assets/certificate1.jpg"
+           data-title="AI Powered Full-Stack Development Internship"
+           data-desc="Hands-on internship covering AI-assisted full-stack development workflows, tooling and project delivery.">
+        <div class="cert-thumb">
+          <img src="assets/certificate1.jpg" alt="AI Powered Full-Stack Development Internship">
+        </div>
+        <h4>AI Powered Full-Stack Development Internship</h4>
+        <p>Hands-on internship covering AI-assisted full-stack development workflows and delivery.</p>
+        <button class="btn btn-outline btn-sm cert-view-btn">
+          <i class="fa-solid fa-eye"></i> View
+        </button>
+      </div>
+
+      <div class="glass-card cert-card" data-reveal
+           data-img="assets/certificate2.png"
+           data-title="Full-Stack Development Course"
+           data-desc="Comprehensive course covering front-end and back-end development, databases and deployment.">
+        <div class="cert-thumb">
+          <img src="assets/certificate2.png" alt="Full-Stack Development Course">
+        </div>
+        <h4>Full-Stack Development Course</h4>
+        <p>Comprehensive course covering front-end, back-end, databases and deployment.</p>
+        <button class="btn btn-outline btn-sm cert-view-btn">
+          <i class="fa-solid fa-eye"></i> View
+        </button>
+      </div>
+
+      <div class="glass-card cert-card" data-reveal
+           data-img="assets/certificate3.png"
+           data-title="Web Development Internship"
+           data-desc="Internship focused on building and deploying responsive, production-ready websites.">
+        <div class="cert-thumb">
+          <img src="assets/certificate3.png" alt="Web Development Internship">
+        </div>
+        <h4>Web Development Internship</h4>
+        <p>Internship focused on building and deploying responsive, production-ready websites.</p>
+        <button class="btn btn-outline btn-sm cert-view-btn">
+          <i class="fa-solid fa-eye"></i> View
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Certificate Modal -->
+<div class="modal" id="certModal">
+  <div class="modal-backdrop" id="certModalBackdrop"></div>
+  <div class="modal-content">
+    <button class="modal-close" id="certModalClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+    <img src="" alt="" id="certModalImg">
+    <h3 id="certModalTitle"></h3>
+    <p id="certModalDesc"></p>
+  </div>
+</div>
+
+<!-- ============ RESUME ============ -->
+<section class="section resume" id="resume">
+  <div class="container">
+    <p class="section-eyebrow" data-reveal>~/resume</p>
+    <h2 class="section-title" data-reveal>Resume</h2>
+
+    <div class="glass-card resume-card" data-reveal>
+      <div class="resume-preview">
+        <embed src="assets/resume.pdf" type="application/pdf" class="resume-embed">
+        <div class="resume-fallback">
+          <i class="fa-solid fa-file-pdf"></i>
+          <p>Preview not supported on this device.</p>
+        </div>
+      </div>
+      <div class="resume-actions">
+        <a href="assets/resume.pdf" download class="btn btn-primary">
+          <i class="fa-solid fa-download"></i> Download Resume
+        </a>
+        <a href="assets/resume.pdf" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Resume
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section faq" id="faq">
+  <div class="container">
+    <p class="section-eyebrow" data-reveal>~/faq</p>
+    <h2 class="section-title" data-reveal>Frequently Asked Questions</h2>
+
+    <div class="faq-list" data-reveal>
+      <div class="faq-item">
+        <button class="faq-question">
+          What technologies do you specialize in?
+          <i class="fa-solid fa-plus"></i>
+        </button>
+        <div class="faq-answer"><p>HTML, CSS, JavaScript, React, Python, Flask and MySQL, along with modern tools like Git and GitHub for version control.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          Are you open to internships or full-time roles?
+          <i class="fa-solid fa-plus"></i>
+        </button>
+        <div class="faq-answer"><p>Yes. I'm a 2026 B.E. Computer Science graduate actively looking for Full-Stack / Frontend Developer opportunities.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          Can I see your resume or GitHub?
+          <i class="fa-solid fa-plus"></i>
+        </button>
+        <div class="faq-answer"><p>Absolutely — use the Resume section above to view or download it, and the GitHub link in the navbar and footer to browse my repositories.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          How can I get in touch with you?
+          <i class="fa-solid fa-plus"></i>
+        </button>
+        <div class="faq-answer"><p>Fill out the contact form below, or reach me directly by email or phone — both are listed in the Contact section.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <p class="section-eyebrow" data-reveal>~/contact</p>
+    <h2 class="section-title" data-reveal>Get In Touch</h2>
+
+    <div class="contact-grid">
+      <div class="contact-info" data-reveal>
+        <p class="contact-intro">
+          Have a project in mind or just want to say hello? My inbox is always open.
+        </p>
+
+        <a href="mailto:suryasivalai04@gmail.com" class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div><span>Email</span><p>suryasivalai04@gmail.com</p></div>
+        </a>
+        <a href="tel:+916379558565" class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <div><span>Phone</span><p>+91 6379558565</p></div>
+        </a>
+        <a href="https://github.com/Jeyasurya-dev" target="_blank" rel="noopener" class="contact-item">
+          <i class="fa-brands fa-github"></i>
+          <div><span>GitHub</span><p>github.com/Jeyasurya-dev</p></div>
+        </a>
+        <a href="https://www.linkedin.com/in/jeya-surya-b-84a80337a/" target="_blank" rel="noopener" class="contact-item">
+          <i class="fa-brands fa-linkedin-in"></i>
+          <div><span>LinkedIn</span><p>linkedin.com/in/jeyasurya-b</p></div>
+        </a>
+      </div>
+
+      <form class="glass-card contact-form" id="contactForm" data-reveal>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cfName">Name</label>
+            <input type="text" id="cfName" name="from_name" required placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="cfEmail">Email</label>
+            <input type="email" id="cfEmail" name="from_email" required placeholder="you@example.com">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="cfSubject">Subject</label>
+          <input type="text" id="cfSubject" name="subject" required placeholder="What's this about?">
+        </div>
+        <div class="form-group">
+          <label for="cfMessage">Message</label>
+          <textarea id="cfMessage" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">
+          <span>Send Message</span> <i class="fa-solid fa-paper-plane"></i>
+        </button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <p>Designed &amp; Developed by</p>
+      <h3>JEYA SURYA B</h3>
+    </div>
+    <div class="footer-socials">
+      <a href="https://github.com/Jeyasurya-dev" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/jeya-surya-b-84a80337a/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="mailto:suryasivalai04@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="tel:+916379558565" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+    </div>
+    <p class="footer-copy">&copy; <span id="year"></span> Jeya Surya B All rights reserved.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- ============ CHATBOT ============ -->
+<button class="chatbot-toggle" id="chatbotToggle" aria-label="Open chat assistant">
+  <i class="fa-solid fa-robot"></i>
+  <i class="fa-solid fa-xmark"></i>
+</button>
+
+<div class="chatbot-window" id="chatbotWindow">
+  <div class="chatbot-header">
+    <div class="bot-avatar"><i class="fa-solid fa-robot"></i></div>
+    <div>
+      <h4>Surya's Assistant</h4>
+      <span>Ask me about Jeya Surya</span>
+    </div>
+  </div>
+  <div class="chatbot-body" id="chatbotBody">
+    <div class="chat-msg bot">Hi! 👋 I can answer questions about Jeya Surya's education, skills, projects and contact details. Try one of the suggestions below or type your own question.</div>
+  </div>
+  <div class="chatbot-suggestions" id="chatbotSuggestions">
+    <button class="chip-btn">Who are you?</button>
+    <button class="chip-btn">Your skills?</button>
+    <button class="chip-btn">Your projects?</button>
+    <button class="chip-btn">Contact info?</button>
+  </div>
+  <form class="chatbot-input" id="chatbotForm">
+    <input type="text" id="chatbotInput" placeholder="Type a question..." autocomplete="off">
+    <button type="submit" aria-label="Send"><i class="fa-solid fa-paper-plane"></i></button>
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
